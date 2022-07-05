@@ -65,7 +65,8 @@ sudo apt-get install -y kubelet=1.21.2-00 kubectl=1.21.2-00 kubeadm=1.22.2-00
 sudo apt-mark hold kubelet kubeadm kubectl
 
 
-IPADDR="10.0.0.10"
+# Replace 172.31.26.180 with the IP of your master node
+IPADDR="172.31.26.180"
 
 NODENAME=$(hostname -s)
 
