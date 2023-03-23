@@ -15,6 +15,8 @@ sudo apt install docker-ce -y
 
 #sudo systemctl status docker
 
+#docker info   --- to check if the permissions are correct, if not execute the next command
+
 sudo chmod 777 /var/run/docker.sock
 
 sudo docker version
