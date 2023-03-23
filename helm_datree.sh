@@ -8,7 +8,7 @@ chmod 700 get_helm.sh
 
 # Datree.io Install 
 
-apt get install unzip
+apt-get install unzip
 
 curl https://get.datree.io | /bin/bash
 datree version
