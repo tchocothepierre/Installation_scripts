@@ -15,6 +15,15 @@ chown -R nexus:nexus /opt/nexus
 nano /opt/nexus/bin/nexus.vmoptions
 
 
+# in the file "vi /opt/nexus/bin/nexus.vmoptions" replace ../sonatype by ./sonatype
+
+# uncomment the line in the file "vi /opt/nexus/bin/nexus.rc" and add the user "nexus" 
+
+# start nexus : 
+sudo -u nexus /opt/nexus/bin/nexus start 
+
+# default port of nexus is 8081
+
 
 ```
 https://www.howtoforge.com/how-to-install-and-configure-nexus-repository-manager-on-ubuntu-20-04/
